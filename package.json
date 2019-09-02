@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll  --config jest.config.js"
+    "test": "jest --watchAll  --config jest.config.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "codecov": "3.5.0",
-    "jest": "24.9.0"
+    "jest": "24.9.0",
+    "supertest": "4.0.2"
   }
 }
