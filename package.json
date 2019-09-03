@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll  --config jest.config.js",
+    "test-report": "jest --coverage",
     "dev": "nodemon server.js"
   },
   "keywords": [],
